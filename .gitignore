@@ -1,6 +1,9 @@
 .idea
 package-lock.json
 
+#Ignore env.sh file
+env.sh
+
 # Logs
 logs
 *.log
