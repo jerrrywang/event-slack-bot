@@ -1,0 +1,27 @@
+{
+  "name": "event-slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "mkdir -p build && babel server.js -o build/main.bundle.js",
+    "lint": "eslint --fix *.js",
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrrywang/event-slack-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerrrywang/event-slack-bot/issues"
+  },
+  "homepage": "https://github.com/jerrrywang/event-slack-bot#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.2.0"
+  }
+}
