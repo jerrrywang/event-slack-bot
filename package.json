@@ -25,6 +25,9 @@
     "eslint": "^5.2.0"
   },
   "dependencies": {
-    "@slack/client": "^4.3.1"
+    "@slack/client": "^4.3.1",
+    "dialogflow": "^0.6.0",
+    "express": "^4.16.3",
+    "http": "0.0.0"
   }
 }
